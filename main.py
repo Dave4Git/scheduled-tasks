@@ -63,7 +63,7 @@ for index, row in birthdays.iterrows():
 			print(new_letter)
 		with smtplib.SMTP(host=HOST, port=PORT) as connection:
 			connection.starttls()
-			connection.login(user=MYEMAIL, password=PASSWORD)
+			connection.login(user=MY_EMAIL, password=MY_PASSWORD)
 			connection.sendmail(
 							from_addr=MYEMAIL,
 							to_addrs=to_email,
