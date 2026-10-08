@@ -17,8 +17,6 @@ import smtplib
 import pandas as pd
 from email.mime.text import MIMEText
 
-MYEMAIL = "davepythontest4@gmail.com"
-PASSWORD = "lwyeuapcqsnzgnvh"
 PORT = 587
 HOST = "smtp.gmail.com"
 
